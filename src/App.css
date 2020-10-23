@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+
+.Box{
+  position: absolute;;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  max-height: inherit;
+  left: 0;
+  right: 0;
+  top:0;
+  bottom: 0;
+  border-radius: 2px;
+  text-decoration: none;
+  outline: none;
+  background-color: rgb(67, 137, 202);
+}
+.Box:focus{
+  position: absolute;;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  max-height: inherit;
+  left: 0;
+  right: 0;
+  top:0;
+  bottom: 0;
+  border-radius: 2px;
+  text-decoration: none;
+  outline: none;
+  background-color: rgb(179, 188, 197);
+}
+
+.fence{
+  width: 80%;
+    border: 10px solid #858990;
+    border-radius: 15px;
+    height: 702px;
+    margin: auto;
+    position: relative;
+}
+
+.button {
+    display: inline-block;
+    margin: 1%;
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #366d94;
+    border: none;
+    border-radius: 5px;
+}
+
+.button:hover {background-color: #0c578d}
+
+.button:active {
+  background-color: #0c578d;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
