@@ -21,7 +21,7 @@ class App extends React.Component {
 
     }else if(event.code==="KeyS"){
       let Y_val = parseInt(obj.style.top?obj.style.top:0, 10);
-      obj.style.top = (Y_val<590?(Y_val + 10):600) + "px";
+      obj.style.top = (Y_val<460?(Y_val + 10):470) + "px";
 
     }else if(event.code==="KeyD"){
       let X_val = parseInt(obj.style.left?obj.style.left:0, 10);
