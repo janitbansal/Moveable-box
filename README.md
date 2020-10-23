@@ -1,13 +1,13 @@
-### Moveable Boxes
-# Step 1: 
+# Moveable Boxes
+### Step 1: 
 Clone the repo on your local System
 
-# Step 2: 
+### Step 2: 
 Open terminal and go to the project directory and run `npm install` <br />
 This will only install the basic dependecies of react.<br />
 No external npm package is used in this project.<br />
 
-# Step 3: 
+### Step 3: 
 Now we are good to go!
 Open the terminal and run command ``npm start``
 
